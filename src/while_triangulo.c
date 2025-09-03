@@ -3,12 +3,12 @@
 
 int main(){
     system("clear");
-    int lin=1, col=10;
+    int lin=1, col=1;
 
     while(lin <= 10){
         col = 1;
         while(col <= lin){
-            printf("#");
+            printf("@");
             col++;
         }
         printf("\n");
